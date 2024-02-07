@@ -1,10 +1,6 @@
 class FruitStand {
     private val inventory = mutableListOf<Fruit>()
-
-    fun stock(fruit: Fruit) {
-        inventory.add(fruit)
-    }
-
+    fun stock(fruit: Fruit) = inventory.add(fruit)
     fun browse() = inventory
 }
 
