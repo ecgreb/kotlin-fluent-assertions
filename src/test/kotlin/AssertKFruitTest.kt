@@ -63,6 +63,7 @@ class AssertKFruitTest {
         val fruits = fruitStand.browse()
         // Note: this should fail
         // assertThat(fruits[0]).isDataClassEqualTo(orange)
+        assertThat(apple).isDataClassEqualTo(orange)
     }
 
     @Test
