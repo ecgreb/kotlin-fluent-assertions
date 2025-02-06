@@ -7,12 +7,12 @@ Simple (work in progress) demo app to compare assertion libraries on Kotlin and 
 * [JUnit4](https://junit.org/junit4/) ([source](https://github.com/junit-team/junit4)) - the classic
 * [Truth](https://truth.dev/) ([source](https://github.com/google/truth)) - Google's fluent assertion framework
 * [AssertK](https://www.willowtreeapps.com/craft/fluent-assertions-in-kotlin-using-assertk) ([source](https://github.com/willowtreeapps/assertk)) - Kotlin assertions inspired by AssertJ
+* [AssertJ](https://joel-costigliola.github.io/assertj/) ([source](https://github.com/assertj/assertj)) - the original fluent assertions for Java
 
 #### Other Kotlin assertion frameworks
 
 * [JUnit5](https://junit.org/junit5/) ([source](https://github.com/junit-team/junit5)) - not yet supported on Android*
 * [Hamcrest](https://hamcrest.org/) ([source](https://github.com/hamcrest)) - matchers ex. `assertThat(theBiscuit, equalTo(myBiscuit))`
-* [AssertJ](https://joel-costigliola.github.io/assertj/) ([source](https://github.com/assertj/assertj)) - the original fluent assertions for Java
 * [kotlin.test](https://kotlinlang.org/api/latest/kotlin.test/) ([source](https://github.com/JetBrains/kotlin)) - Kotlin's built-in assertions
 * [Strikt](https://strikt.io/) ([source](https://github.com/robfletcher/strikt)) - lambdas and extension functions
 * [Kluent](https://markusamshove.github.io/Kluent/)) ([source](https://github.com/MarkusAmshove/Kluent)) - infix notation ex. `"hello" shouldBeEqualTo "hello"`
