@@ -14,6 +14,7 @@ dependencies {
     testImplementation("junit", "junit", "4.13.2")
     testImplementation("com.google.truth", "truth", "1.4.0")
     testImplementation("com.willowtreeapps.assertk", "assertk", "0.28.0")
+    testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation(kotlin("reflect"))
 }
 
